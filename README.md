@@ -10,8 +10,8 @@ sbt-ifttt is an [sbt](http://www.scala-sbt.org/) plugin to trigger an
 
 # Requirements
 
-* sbt (version >= 0.13.5 should do it, although I have only tried with latest
-  1.x)
+* `sbt` (version >= 0.13.5 should do it, although I have only tried with
+  1.1.4)
 * [sbt-assembly](https://github.com/sbt/sbt-assembly) plugin (to make
   `nAssembly` work)
 
