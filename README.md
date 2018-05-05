@@ -1,5 +1,7 @@
 # sbt-ifttt
 
+[ ![Download](https://api.bintray.com/packages/rberenguel/sbt-plugins/sbt-ifttt/images/download.svg) ](https://bintray.com/rberenguel/sbt-plugins/sbt-ifttt/_latestVersion)
+
 sbt-ifttt is an [sbt](http://www.scala-sbt.org/) plugin to trigger an
 [IFTTT](https://ifttt.com/maker_webhooks)
 [webhook](https://ifttt.com/maker_webhooks) after the tasks
@@ -16,6 +18,17 @@ sbt-ifttt is an [sbt](http://www.scala-sbt.org/) plugin to trigger an
   `nAssembly` work)
 
 # Usage
+
+Install by adding 
+
+```
+resolvers += Resolver.bintrayIvyRepo("rberenguel", "sbt-plugins")
+```
+and
+```
+addSbtPlugin("com.rberenguel" % "sbt-ifttt" % "0.1.0")
+```
+either at project or global level (more details below).
 
 The actions defined above will trigger the webhook passing:
 * _Value 1: sbt_ (it's used as title)
