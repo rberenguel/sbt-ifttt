@@ -76,7 +76,7 @@ to any file ending in `.sbt` (custom is `global.sbt`) in `~/.sbt/1.0/`.
 
 This was inspired by the following tweet by Rúnar Bjarnason:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just another day at the office. <img src="https://t.co/1iaPzIjQYj">pic.twitter.com/1iaPzIjQYj</img></p>&mdash; Rúnar (@runarorama) <a href="https://twitter.com/runarorama/status/988460928298569728?ref_src=twsrc%5Etfw">April 23, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just another day at the office. <a src="https://t.co/1iaPzIjQYj">pic.twitter.com/1iaPzIjQYj</a></p>&mdash; Rúnar (@runarorama) <a href="https://twitter.com/runarorama/status/988460928298569728?ref_src=twsrc%5Etfw">April 23, 2018</a></blockquote>
 
 At the time I was running very long computations with Spark, and wanted to be
 notified on my watch when the cluster was finished and ready for the next step.
