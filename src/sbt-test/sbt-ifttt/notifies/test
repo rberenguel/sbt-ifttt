@@ -1,0 +1,6 @@
+> nCompile
+$ copy-file changes/badFile.scala src/main/scala/badFile.scala
+-> nCompile
+$ delete src/main/scala/badFile.scala
+> nTest
+> nAssembly
