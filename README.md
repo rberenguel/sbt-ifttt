@@ -38,7 +38,7 @@ The actions defined above will trigger the webhook passing:
 Assuming you have an account (it's free), you can create a webhook applet in
 IFTTT [here](https://ifttt.com/create):
 
-1. Click on _this_ and search for __webhook_
+1. Click on _this_ and search for _webhook_
 2. Choose _Receive a web request_
 3. Choose the event name (I have _command\_line\_notify_ since I use it for
    other events)
