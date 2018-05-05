@@ -9,6 +9,7 @@ import scalaj.http._
 
 
 object SbtIFTTT extends AutoPlugin {
+  private val sbtLogo = "https://raw.githubusercontent.com/rberenguel/sbt-ifttt/master/sbt-logo.png"
   override def trigger = allRequirements
   override val requires = plugins.JvmPlugin
 
@@ -50,7 +51,7 @@ object SbtIFTTT extends AutoPlugin {
           .header("content-type", "application/json")
           .postData(s"""{"value1":"Sbt",
                       | "value2":"Task $msg",
-                      | "value3": "https://www.scala-sbt.org/assets/sbt-logo.svg"}""".stripMargin)
+                      | "value3": "$sbtLogo"}""".stripMargin)
           .asString
       } match {
         case Success(s) =>

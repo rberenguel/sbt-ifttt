@@ -72,6 +72,18 @@ iftttEvent := "YOUR_EVENT"
 ```
 to any file ending in `.sbt` (custom is `global.sbt`) in `~/.sbt/1.0/`.
 
+# Why
+
+This was inspired by the following tweet by Rúnar Bjarnason:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just another day at the office. <a href="https://t.co/1iaPzIjQYj">pic.twitter.com/1iaPzIjQYj</a></p>&mdash; Rúnar (@runarorama) <a href="https://twitter.com/runarorama/status/988460928298569728?ref_src=twsrc%5Etfw">April 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+At the time I was running very long computations with Spark, and wanted to be
+notified on my watch when the cluster was finished and ready for the next step.
+Long `sbt` builds/assembly/test only seemed a natural extension once I got IFTTT
+working, and since I had never written a plugin, this was as good a first time
+as any.
+
 # Caveats
 
 This is the first time I tried to write a plugin, so it can probably be improved
