@@ -53,7 +53,7 @@ access key. You can find your access key in the webhooks page by pressing
 _Documentation_ (top right).
 
 You can build the plugin locally by cloning this repository and running `sbt
-publishLocal`. As soon as I figured how to publish it I will do it :)
+publishLocal`.
 
 Then, add it to a project by adding
 
