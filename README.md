@@ -2,6 +2,13 @@
 
 [ ![Download](https://api.bintray.com/packages/rberenguel/sbt-plugins/sbt-ifttt/images/download.svg) ](https://bintray.com/rberenguel/sbt-plugins/sbt-ifttt/_latestVersion)
 
+---
+
+I don't plan on maintaining or re-releasing for newer versions of sbt after bintray deprecation. Feel free to fork if you need something similar 😃
+
+---
+
+
 sbt-ifttt is an [sbt](http://www.scala-sbt.org/) plugin to trigger an
 [IFTTT](https://ifttt.com/maker_webhooks)
 [webhook](https://ifttt.com/maker_webhooks) after the tasks
